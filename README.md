@@ -14,8 +14,6 @@ It provides a clean graphical interface to securely encrypt and decrypt files us
 - 🚫 Warns users not to close the app during encryption/decryption.
 - 🔐 Displays a password prompt for both actions.
 - 🌐 Multilingual warning (English & Arabic).
-- 🪟 Custom icon for window and executable.
-- 📦 Prepared for `.exe` conversion using PyInstaller with embedded icon.
 
 ---
 
