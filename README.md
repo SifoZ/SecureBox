@@ -63,6 +63,3 @@ It provides a clean graphical interface to securely encrypt and decrypt files us
 
 ---
 
-## 📜 License
-
-Licensed under **GNU General Public License v3.0 (GPL-3.0)**.
