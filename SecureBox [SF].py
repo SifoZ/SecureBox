@@ -72,7 +72,7 @@ def win_progress(task_func):
     prog = ttkb.Toplevel(root)
     prog.geometry('320x80+580+200')
     prog.title('SecureBox [SF]')
-    prog.iconbitmap('C://Users//PC//Downloads//SF.ico')
+    prog.iconbitmap(icon_path)
     prog.maxsize(320, 80)
     prog.minsize(320, 80)
     ttkb.Label(prog, text='Progress:', background='#ffffff').place(x=10,y=10)
@@ -100,7 +100,7 @@ def enc():
             return
         pro_ = ttkb.Toplevel(root)
         pro_.geometry('300x100+580+200')
-        pro_.iconbitmap("C://Users//PC//Downloads//SF.ico")
+        pro_.iconbitmap(icon_path)
         pro_.title("SecureBox [SF]")
         ttkb.Label(pro_,text='password the fils:', background='#ffffff').place(x=20,y=20)
         password = ttkb.Entry(pro_, width=25,)
@@ -129,7 +129,7 @@ def dec():
         if filename.endswith('.SF'):
             pro_ = ttkb.Toplevel(root)
             pro_.geometry('300x100+580+200')
-            pro_.iconbitmap("C://Users//PC//Downloads//SF.ico")
+            pro_.iconbitmap(icon_path)
             pro_.title("SecureBox [SF]")
             ttkb.Label(pro_,text='password the fils:', background='#ffffff').place(x=20,y=20)
             password_ = ttkb.Entry(pro_, width=25, show='●')
